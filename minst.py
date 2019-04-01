@@ -1,5 +1,5 @@
-from tensorflow.python.keras.datasets import mnist
-from tensorflow.python.keras.utils import np_utils
+from keras.datasets import mnist
+from keras.utils import np_utils
 import numpy as np
 
 np.random.seed(10)
@@ -24,8 +24,8 @@ y_testOneHot = np_utils.to_categorical(y_test)
 
 # In[10]:
 # 建立模型
-from tensorflow.python.keras.models import Sequential
-from tensorflow.python.keras.layers import Dense, Dropout, Flatten, Conv2D, MaxPooling2D
+from keras.models import Sequential
+from keras.layers import Dense, Dropout, Flatten, Conv2D, MaxPooling2D
 
 # In[11]:
 # 建立keras的Sequential模型（线性堆积模型），后续只需要使用model.add()方法，将各神经网络层加入模型即可
