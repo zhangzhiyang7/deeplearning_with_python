@@ -105,7 +105,7 @@ iterations = 20  # Number of ascent steps per scale
 max_loss = 10.
 
 # Fill this to the path to the image you want to use
-base_image_path = 'C:/Users/13980/Desktop/Windows.jpg'
+base_image_path = 'C:/Users/13980/Desktop/desktop.png'
 
 # Load the image into a Numpy array
 img = preprocess_image(base_image_path)
